@@ -15,7 +15,7 @@ This folder contains the survey form used for our validation study in the file *
 
 ## Artifacts
 The file **data.csv** contains the list of the 77 issues with the following information: <br />
-Issue number; URL; gis; Final Scenario; Final Component 1; Final Component 2; Impact; Buggy Version; Fixed Version; Fixing commit <br />
+Issue number; URL; gis; Final Scenario; Final Component 1; Final Component 2; Impact; Root Cause; Buggy Version; Fixed Version; Fixing commit <br />
 Since it is formatted as ".csv", it can be extracted easily by external tools.
 
 The subfolder **Bugs_in_JSON** contains the list of the 77 issues (.JSON format) we extracted from the GitHub API. Note that ID of issue does not go from 1 to 77, see the sheet **Comparison Category** in the file **Keras_Bugs_Sheets.xlsx**.
